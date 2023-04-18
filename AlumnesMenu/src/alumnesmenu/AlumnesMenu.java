@@ -25,14 +25,6 @@ public class AlumnesMenu {
         AlumnesMenu app = new AlumnesMenu();
         
         app.run();
-               
-        
-        
-       
-        
-        
-        
-        
         
     }
 
@@ -42,10 +34,11 @@ public class AlumnesMenu {
         
         loadOptionsItem(menu_principal);
         
-        menu_principal.DisplayMenu();
+       
         int option;
         do
         {
+            menu_principal.DisplayMenu();
             option = menu_principal.chooseOption();
             switch(option)
             {
